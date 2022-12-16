@@ -1,6 +1,56 @@
+body {
+  background-color: #10334b;
+}
+
 .App {
   text-align: center;
 }
+
+.menu {
+  width: 80%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #3eaae3;
+}
+
+.cart {
+  width: 80%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: goldenrod;
+  padding-bottom: 2rem;
+}
+
+.item {
+  border: solid 2px black;
+  padding: 2rem;
+}
+
+button {
+  background-color: rgb(240, 241, 212);
+  margin-top: 1.5rem;
+  width: 10vw;
+  height: 5vh;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  color:rgb(240, 241, 212);
+  border-color: rgba(240, 241, 212, 0);
+
+}
+
+.total {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+
+
 
 .App-logo {
   height: 40vmin;
